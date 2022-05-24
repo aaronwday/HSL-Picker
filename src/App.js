@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>My HSL Picker</code> and save to reload.
+          H<input type="range" min="0" max="350"/>
+          S<input type="range" min="0" max="100"/>
+          L<input type="range" min="0" max="100"/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        </div>
   );
 }
 
