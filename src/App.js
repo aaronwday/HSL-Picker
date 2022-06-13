@@ -47,11 +47,16 @@ function App() {
          value={L}
          onChange={handleLChange}
          />L
-        
+        <div className="color-inputs">
+          <input id="hex" type="text"></input>
+          <input id="rgba" type="text"></input>
+          <input id="hsl" type="text"></input>
+        </div>
        
         
        
         </div>
+        
 
       
   );

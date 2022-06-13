@@ -3,6 +3,7 @@
   height: 275px;
   width: 275px;
   
+  
  
 }
 
@@ -15,9 +16,10 @@
 }
 
 .App {
- background-color: rgb(187, 194, 204);
+ background-color: silver;
  font-family: "Russo One";
  font-weight: bold;
+ color: black;
  
 }
 
@@ -51,6 +53,10 @@
   margin-left: 200px;
   font-weight: bold;
   font-size: 25px;
+  color: black;
   
+}
 
+.color-inputs {
+  box-shadow: black;
 }
